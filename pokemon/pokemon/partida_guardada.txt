@@ -1,0 +1,14 @@
+==============================
+  PARTIDA GUARDADA
+==============================
+Fecha: Mon Jul 06 10:30:06 2026
+Jugador 1: Angel
+  Pokemon: Pikachu
+  Tipo:    Electrico
+Jugador 2: Raulito
+  Pokemon: Geodude
+  Tipo:    Tierra
+------------------------------
+Ganador:  Raulito
+Turnos:   3
+==============================
