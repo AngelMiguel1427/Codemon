@@ -1,0 +1,407 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="eDD7EWfl5q9p5jmM7mQf">
+    <mxGraphModel dx="975" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#000000)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n01" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;" value="INICIO" vertex="1">
+          <mxGeometry height="40" width="130" x="185" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Inicializar datos&lt;br&gt;(srand, arreglos globales)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n03" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Jugar?&lt;br&gt;seguir == &#39;s&#39;" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n04" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=12;" value="FIN" vertex="1">
+          <mxGeometry height="40" width="100" x="490" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="n05" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar lista de&lt;br&gt;Pokémon disponibles" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n06" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Elegir Pokémon (1-7)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="n07" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Válido?&lt;br&gt;(leerNumero)" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n08" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar sprite jugador&lt;br&gt;(mostrarSpriteUno)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="n09" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CPU elige Pokémon&lt;br&gt;(aleatorio, distinto al jugador)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Mostrar sprite CPU&lt;br&gt;(mostrarSpriteUno)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Inicializar HP&lt;br&gt;(miHP, hpCPU, hpMaxJ, hpMaxC)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Turno = 1" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="¿Ambos vivos?&lt;br&gt;(miHP &gt; 0 AND hpCPU &gt; 0)" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar batalla&lt;br&gt;(barras HP + sprites lado a lado)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar ataques y&lt;br&gt;elegir ataque (1-3)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Válido?&lt;br&gt;(leerNumero)" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Calcular daño base J&lt;br&gt;poder_ataque + rand() % 5" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="1037" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Crítico?&lt;br&gt;rand() % 10 == 0" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1092" as="geometry" />
+        </mxCell>
+        <mxCell id="n18b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Daño × 2" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="¿Jugador tiene&lt;br&gt;ventaja de tipo?" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="n19b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Daño × 1.5 (×3/2)" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="¿CPU tiene&lt;br&gt;ventaja de tipo?" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1262" as="geometry" />
+        </mxCell>
+        <mxCell id="n20b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Daño × 0.75 (×3/4)" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Daño ≥ 1?" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1347" as="geometry" />
+        </mxCell>
+        <mxCell id="n21b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Daño = 1 (mínimo)" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Restar HP CPU&lt;br&gt;hpCPU -= miDanio" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="1432" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar msg ataque J&lt;br&gt;(critico / super efectivo)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="1487" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿CPU derrotada?&lt;br&gt;(hpCPU &lt;= 0)" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1542" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Ataque aleatorio CPU&lt;br&gt;rand() % NUM_ATAQUES" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="1657" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Calc daño base CPU&lt;br&gt;poder_ataque + rand() % 5" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="1712" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="¿Crítico?&lt;br&gt;rand() % 10 == 0" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1767" as="geometry" />
+        </mxCell>
+        <mxCell id="n27b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Daño × 2" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="¿CPU tiene&lt;br&gt;ventaja de tipo?" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1852" as="geometry" />
+        </mxCell>
+        <mxCell id="n28b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Daño × 1.5 (×3/2)" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="&amp;nbsp;¿Jugador tiene&lt;br&gt;ventaja de tipo?" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="1937" as="geometry" />
+        </mxCell>
+        <mxCell id="n29b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Daño × 0.75 (×3/4)" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="&amp;nbsp;¿Daño ≥ 1?" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="2022" as="geometry" />
+        </mxCell>
+        <mxCell id="n30b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Daño = 1 (mínimo)" vertex="1">
+          <mxGeometry height="40" width="110" x="455" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Restar HP Jugador&lt;br&gt;miHP -= dañoCPU" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="2107" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Mostrar msg ataque CPU&lt;br&gt;(critico / super efectivo)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="2162" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#006600;fontColor=#ffffff;fontStyle=1;" value="Turno++&lt;br&gt;(SIEMPRE, fuera del condicional)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="2230" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="¿Ganaste?&lt;br&gt;(miHP &gt; 0)" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="2302" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="¡GANASTE!" vertex="1">
+          <mxGeometry height="50" width="140" x="30" y="2422" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" value="¡PERDISTE!" vertex="1">
+          <mxGeometry height="50" width="140" x="340" y="2422" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar sprite del ganador&lt;br&gt;(mostrarSpriteUno)" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="2522" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Volver a jugar?&lt;br&gt;cin &gt;&gt; seguir" vertex="1">
+          <mxGeometry height="70" width="160" x="170" y="2582" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar &#39;Gracias por jugar&#39;" vertex="1">
+          <mxGeometry height="40" width="200" x="150" y="2682" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=12;" value="FIN" vertex="1">
+          <mxGeometry height="40" width="130" x="185" y="2742" as="geometry" />
+        </mxCell>
+        <mxCell id="e01" edge="1" parent="1" source="n01" style="edgeStyle=orthogonalEdgeStyle;" target="n02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e02" edge="1" parent="1" source="n02" style="edgeStyle=orthogonalEdgeStyle;" target="n03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e03" edge="1" parent="1" source="n03" style="edgeStyle=orthogonalEdgeStyle;" target="n05" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e04" edge="1" parent="1" source="n03" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n04" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e05" edge="1" parent="1" source="n05" style="edgeStyle=orthogonalEdgeStyle;" target="n06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e06" edge="1" parent="1" source="n06" style="edgeStyle=orthogonalEdgeStyle;" target="n07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e07" edge="1" parent="1" source="n07" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n06" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="385" />
+              <mxPoint x="110" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e08" edge="1" parent="1" source="n07" style="edgeStyle=orthogonalEdgeStyle;" target="n08" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e09" edge="1" parent="1" source="n08" style="edgeStyle=orthogonalEdgeStyle;" target="n09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="n09" style="edgeStyle=orthogonalEdgeStyle;" target="n10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="n10" style="edgeStyle=orthogonalEdgeStyle;" target="n11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="n11" style="edgeStyle=orthogonalEdgeStyle;" target="n12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="n12" style="edgeStyle=orthogonalEdgeStyle;" target="n13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="n13" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n34" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="755" />
+              <mxPoint x="620" y="2337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="n13" style="edgeStyle=orthogonalEdgeStyle;" target="n14" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="n14" style="edgeStyle=orthogonalEdgeStyle;" target="n15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="n15" style="edgeStyle=orthogonalEdgeStyle;" target="n16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="n16" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n15" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="955" />
+              <mxPoint x="120" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="n16" style="edgeStyle=orthogonalEdgeStyle;" target="n17" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="n17" style="edgeStyle=orthogonalEdgeStyle;" target="n18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="n18" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n18b" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" source="n18" style="edgeStyle=orthogonalEdgeStyle;" target="n19" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="1" source="n18b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1127" />
+              <mxPoint x="580" y="1212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e24" edge="1" parent="1" source="n19" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n19b" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" edge="1" parent="1" source="n19" style="edgeStyle=orthogonalEdgeStyle;" target="n20" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e26" edge="1" parent="1" source="n19b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1212" />
+              <mxPoint x="580" y="1297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27" edge="1" parent="1" source="n20" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n20b" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e28" edge="1" parent="1" source="n20" style="edgeStyle=orthogonalEdgeStyle;" target="n21" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e29" edge="1" parent="1" source="n20b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1297" />
+              <mxPoint x="580" y="1382" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" edge="1" parent="1" source="n21" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n21b" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e31" edge="1" parent="1" source="n21" style="edgeStyle=orthogonalEdgeStyle;" target="n22" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e32" edge="1" parent="1" source="n21b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1382" />
+              <mxPoint x="580" y="1452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e33" edge="1" parent="1" source="n22" style="edgeStyle=orthogonalEdgeStyle;" target="n23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e34" edge="1" parent="1" source="n23" style="edgeStyle=orthogonalEdgeStyle;" target="n24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e35" edge="1" parent="1" source="n24" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n34" value="Sí">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="1577" />
+              <mxPoint x="645" y="2337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e36" edge="1" parent="1" source="n24" style="edgeStyle=orthogonalEdgeStyle;" target="n25" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e37" edge="1" parent="1" source="n25" style="edgeStyle=orthogonalEdgeStyle;" target="n26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e38" edge="1" parent="1" source="n26" style="edgeStyle=orthogonalEdgeStyle;" target="n27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e39" edge="1" parent="1" source="n27" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n27b" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e40" edge="1" parent="1" source="n27" style="edgeStyle=orthogonalEdgeStyle;" target="n28" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e41" edge="1" parent="1" source="n27b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1802" />
+              <mxPoint x="580" y="1887" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e42" edge="1" parent="1" source="n28" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n28b" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e43" edge="1" parent="1" source="n28" style="edgeStyle=orthogonalEdgeStyle;" target="n29" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e44" edge="1" parent="1" source="n28b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1887" />
+              <mxPoint x="580" y="1972" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e45" edge="1" parent="1" source="n29" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n29b" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e46" edge="1" parent="1" source="n29" style="edgeStyle=orthogonalEdgeStyle;" target="n30" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e47" edge="1" parent="1" source="n29b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1972" />
+              <mxPoint x="580" y="2057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e48" edge="1" parent="1" source="n30" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n30b" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e49" edge="1" parent="1" source="n30" style="edgeStyle=orthogonalEdgeStyle;" target="n31" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e50" edge="1" parent="1" source="n30b" style="edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="2057" />
+              <mxPoint x="580" y="2127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e51" edge="1" parent="1" source="n31" style="edgeStyle=orthogonalEdgeStyle;" target="n32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e52" edge="1" parent="1" source="n32" style="edgeStyle=orthogonalEdgeStyle;" target="n33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e53" edge="1" parent="1" source="n33" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n13" value="Siguiente turno">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="2237" />
+              <mxPoint x="90" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e54" edge="1" parent="1" source="n34" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="n35" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e55" edge="1" parent="1" source="n34" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n36" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e56" edge="1" parent="1" source="n35" style="edgeStyle=orthogonalEdgeStyle;" target="n37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e57" edge="1" parent="1" source="n36" style="edgeStyle=orthogonalEdgeStyle;" target="n37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e58" edge="1" parent="1" source="n37" style="edgeStyle=orthogonalEdgeStyle;" target="n38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e59" edge="1" parent="1" source="n38" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n05" value="Sí">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="2617" />
+              <mxPoint x="50" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e60" edge="1" parent="1" source="n38" style="edgeStyle=orthogonalEdgeStyle;" target="n39" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e61" edge="1" parent="1" source="n39" style="edgeStyle=orthogonalEdgeStyle;" target="n40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
